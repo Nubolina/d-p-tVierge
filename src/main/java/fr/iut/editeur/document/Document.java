@@ -42,4 +42,8 @@ public class Document {
         texte = partieGauche + partieDroite;
     }
 
+    public void clear(){
+        this.texte = "";
+    }
+
 }
