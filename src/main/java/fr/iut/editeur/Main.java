@@ -5,10 +5,14 @@ import fr.iut.editeur.commande.invoker.CommandeInvoker;
 import fr.iut.editeur.document.Document;
 import fr.iut.editeur.commande.factory.CommandeFactory;
 
+import javax.print.Doc;
+import java.sql.SQLOutput;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+
         Scanner scanner = new Scanner(System.in);
         Document document = new Document();
         CommandeInvoker invoker = CommandeInvoker.getInstance();
