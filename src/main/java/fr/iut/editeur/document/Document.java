@@ -43,7 +43,7 @@ public class Document {
     }
 
     public void clear(){
-        this.texte = ""+"1";
+        this.texte = "";
     }
 
 }
