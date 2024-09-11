@@ -25,6 +25,11 @@ public class Document {
         return this.texte;
     }
 
+    /**
+    * @param debut début de l'ajout du mot
+    * @param fin fin de l'ajout du mot
+    * @param remplacement le mot à ajouter
+    */
     public void remplacer(int debut, int fin, String remplacement) {
         String partieGauche = texte.substring(0, debut);
         String partieDroite = texte.substring(fin + 1);
